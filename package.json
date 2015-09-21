@@ -1,0 +1,26 @@
+{
+  "name": "compo-contrib-mgmt",
+  "version": "0.0.1",
+  "description": "A console plugin for managing plugins.",
+  "main": "index.js",
+  "compo": "compo.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhugman/compo-contrib-mgmt.git"
+  },
+  "keywords": [
+    "compo",
+    "compo-console",
+    "plugin",
+    "management"
+  ],
+  "author": "@jhugman",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jhugman/compo-contrib-mgmt/issues"
+  },
+  "homepage": "https://github.com/jhugman/compo-contrib-mgmt#readme"
+}
