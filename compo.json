@@ -1,4 +1,5 @@
 {
+  "manifest_version": "1.0",
   "extensions": [
     {
       "epID": "console.command",
