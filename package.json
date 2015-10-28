@@ -5,6 +5,7 @@
   "main": "index.js",
   "compo": "compo.json",
   "scripts": {
+    "start": "node --use-strict ./node_modules/compo/bin/cli.js compo-contrib-console",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

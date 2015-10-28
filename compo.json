@@ -3,43 +3,37 @@
   "extensions": [
     {
       "epID": "console.command",
-      "firstWord": "list",
-      "secondWord": "plugins",
+      "command": "list plugins",
       "function": "./lib/console!listPlugins",
       "description": "List the plugins that are currently loaded"
     },
     {
       "epID": "console.command",
-      "firstWord": "list",
-      "secondWord": "singletons",
+      "command": "list singletons",
       "function": "./lib/console!listSingletons",
       "description": "List the singletons that are currently available"
     },
     {
       "epID": "console.command",
-      "firstWord": "load",
-      "secondWord": "plugin",
+      "command": "load plugin",
       "function": "./lib/console!loadPlugin",
       "description": "Load a new plugin"
     },
     {
       "epID": "console.command",
-      "firstWord": "unload",
-      "secondWord": "plugin",
+      "command": "unload plugin",
       "function": "./lib/console!unloadPlugin",
       "description": "Unload an installed plugin"
     },
     {
       "epID": "console.command",
-      "firstWord": "restart",
-      "secondWord": "plugin",
+      "command": "restart plugin",
       "function": "./lib/console!restartPlugin",
       "description": "Unload then load an installed plugin"
     },
     {
       "epID": "console.command",
-      "firstWord": "list",
-      "secondWord": "ep",
+      "command": "list ep",
       "function": "./lib/console!listExtensionPoints",
       "description": "List the extension points available to extend"
     }
