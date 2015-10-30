@@ -21,13 +21,13 @@
     },
     {
       "epID": "console.command",
-      "command": "unload plugin",
+      "command": "unload PLUGIN",
       "function": "./lib/console!unloadPlugin",
       "description": "Unload an installed plugin"
     },
     {
       "epID": "console.command",
-      "command": "restart plugin",
+      "command": "restart PLUGIN",
       "function": "./lib/console!restartPlugin",
       "description": "Unload then load an installed plugin"
     },
@@ -35,6 +35,12 @@
       "epID": "console.command",
       "command": "list ep",
       "function": "./lib/console!listExtensionPoints",
+      "description": "List the extension points available to extend"
+    },
+    {
+      "epID": "console.command.token",
+      "tokenType": "PLUGIN",
+      "function": "./lib/console!getPlugin",
       "description": "List the extension points available to extend"
     }
   ],
